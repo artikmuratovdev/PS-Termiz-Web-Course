@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>PS Termiz Web Course</title>
+  <meta name="description" content="Bolalar uchun Web dasturlash asoslari va AI vositalar: 80 ta amaliy dars, taqdimot rejimi, laboratoriya va playground.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230e6e5c'/%3E%3Ctext x='32' y='43' font-family='monospace' font-size='28' font-weight='700' fill='white' text-anchor='middle'%3E%26lt;/%26gt;%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=JetBrains+Mono:wght@400;600;700&family=Nunito+Sans:opsz,wght@6..12,400;6..12,600;6..12,700;6..12,800&display=swap">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-in">
+      <a class="brand" href="#home"><b>PS Termiz<i>.</i>web</b><span>HTML · CSS · JS · AI</span></a>
+      <nav class="nav" aria-label="Asosiy menyu">
+        <a href="#home" data-nav="home">Darslar</a>
+        <a href="#labs" data-nav="labs">Laboratoriya</a>
+        <a href="#playground" data-nav="playground">Playground</a>
+        <a href="#teacher" data-nav="teacher">O'qituvchi</a>
+      </nav>
+      <button class="icon-btn" id="theme" type="button" aria-label="Tungi rejim">☾</button>
+    </div>
+  </header>
+  <main class="wrap" id="app"></main>
+
+  <!-- Kod ranglash (Prism) -->
+  <script>window.Prism = { manual: true };</script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-scss.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-bash.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-markdown.min.js"></script>
+
+  <!-- Kurs ma'lumotlari -->
+  <script src="assets/js/data/modules.js"></script>
+  <script src="assets/js/data/lessons-01.js"></script>
+  <script src="assets/js/data/lessons-02.js"></script>
+  <script src="assets/js/data/lessons-03.js"></script>
+  <script src="assets/js/data/lessons-04.js"></script>
+
+  <!-- Platforma -->
+  <script src="assets/js/labs.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
